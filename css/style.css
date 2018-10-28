@@ -202,8 +202,43 @@ canvas
     background-color: rgb(2, 41, 41);
 }
                     /* END PING-PONG STYLE */
+                /* Calculator Style */
+
+.Calculator
+{
+    background-color: aqua;
+    width: 30vw;
+    height: 85vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Field
+{
+    background-color: whitesmoke;
+    width: 30vw;
+    height: 10vh;
+    text-align: right;
+    font-size: 1.5em;
+}
+
+.Math
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Num
+{
+    flex-basis: 25%;
+    flex-grow: 1;
+    height: 15vh;
+    font-size: 2em;
+}
 
 
+                    /* END CALCULATOR STYLE */
 
 
 footer
