@@ -202,6 +202,7 @@ canvas
     background-color: rgb(2, 41, 41);
 }
                     /* END PING-PONG STYLE */
+
                 /* Calculator Style */
 
 .Calculator
@@ -240,6 +241,42 @@ canvas
 
                     /* END CALCULATOR STYLE */
 
+                    /* Start Tic-Tac-Toe STYLE */
+.Tic-Tac-Toe
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.tic
+{
+    flex-basis: 25%;
+    flex-grow: 1;
+    height: 26vh;
+    border: 0.1vw dashed black;
+}
+
+.circle
+{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 26vh;
+    background-image: url("../img/circle.png");
+}
+
+.sharp
+{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 26vh;
+    background-image: url("../img/sharp.png");
+}
+                /* END TIC-TAC-TOE */
 
 footer
 {

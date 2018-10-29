@@ -27,7 +27,7 @@ const clickCard = function () {
                 gameStart++;
                 cards = cards.filter(card => !card.classList.contains("off"));
                 if(gameStart == gameFinish) {
-                    alert(`You Job is DONE!!`)
+                    alert(`Your Job is DONE!!`)
                     location.reload();
                 }
             }

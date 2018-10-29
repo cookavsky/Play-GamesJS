@@ -17,7 +17,7 @@
             <span>Memory</span>
             <span>Ping-Pong</span>
             <span>Calculator</span>
-            <span>Tic-Tac-Toe</span
+            <span>Tic-Tac-Toe</span>
         </h1>
     </header>
 
@@ -53,36 +53,43 @@
             <canvas id="Pong" width="800" height="500"></canvas>
             <script src="./js/pong.js"></script>
         </article>
-        <article>
-            <div class="Calculator">
+        <article class="Calculator">
                 <div class="Field"></div>
                 <div class="Math">
-                    <button class="Num" accesskey="7">7</button>
-                    <button class="Num" accesskey="8">8</button>
-                    <button class="Num" accesskey="9">9</button>
-                    <button class="Num"><---</button>
-                    <button class="Num" accesskey="4">4</button>
-                    <button class="Num" accesskey="5">5</button>
-                    <button class="Num" accesskey="6">6</button>
-                    <button class="Num" accesskey="/">/</button>
-                    <button class="Num" accesskey="1">1</button>
-                    <button class="Num" accesskey="2">2</button>
-                    <button class="Num" accesskey="3">3</button>
-                    <button class="Num" accesskey="*">*</button>
-                    <button class="Num" accesskey=".">.</button>
-                    <button class="Num" accesskey="0">0</button>
-                    <button class="Num" accesskey="+">+</button>
-                    <button class="Num" accesskey="-">-</button>
+                    <button id="Button" type="button" class="Num" value=7 accessKey=7>7</button>
+                    <button id="Button" type="button" class="Num" value=8 accessKey=8>8</button>
+                    <button id="Button" type="button" class="Num" value=9 accessKey=9>9</button>
+                    <button id="Button" type="button" class="Num"><---</button>
+                    <button id="Button" type="button" class="Num" value=4 accessKey=4>4</button>
+                    <button id="Button" type="button" class="Num" value=5 accessKey=5>5</button>
+                    <button id="Button" type="button" class="Num" value=6 accessKey=6>6</button>
+                    <button id="Button" type="button" class="Num" >/</button>
+                    <button id="Button" type="button" class="Num" value=1 accessKey=1>1</button>
+                    <button id="Button" type="button" class="Num" value=2 accessKey=2>2</button>
+                    <button id="Button" type="button" class="Num" value=3 accessKey=3>3</button>
+                    <button id="Button" type="button" class="Num" >*</button>
+                    <button id="Button" type="button" class="Num" value=. accessKey=.>.</button>
+                    <button id="Button" type="button" class="Num" value=0 accessKey=0>0</button>
+                    <button id="Button" type="button" class="Num" >+</button>
+                    <button id="Button" type="button" class="Num" >-</button>
                     <button class="Num">C</button>
-                    <button class="Num">=</button>
+                    <button id="Button" type="button" class="Num">=</button>
                 </div>
             </div>
-        <script src="js/calculator.js"></script></article>
-        <article><p>Proin at ipsum metus. Morbi lacinia vel ligula et facilisis. Suspendisse potenti. Donec ullamcorper nibh euismod sapien
-        elementum, ut suscipit felis consectetur. Phasellus convallis bibendum nisi sed tincidunt. Mauris vel condimentum urna.
-        Suspendisse libero sem, dignissim non erat sed, auctor aliquet diam. Sed tempor facilisis placerat. Etiam tempor cursus
-        ipsum, in commodo est convallis ut. Nulla ac maximus nibh. Fusce vestibulum lobortis tellus id dictum. Ut pellentesque
-        tempus augue. Proin a volutpat dolor. Phasellus nec tristique orci. Nunc ac libero ut augue interdum consequat.</p></article>
+        <script src="js/calculator.js"></script>
+        </article>
+        <article class="Tic-Tac-Toe" id="Tic-Tac-Toe">
+            <div id="tic" class="tic"></div>
+            <div id="tic" class="tic"></div>
+            <div id="tic" class="tic"></div>
+            <div id="tic" class="tic"></div>
+            <div id="tic" class="tic"></div>
+            <div id="tic" class="tic"></div>
+            <div id="tic" class="tic"></div>
+            <div id="tic" class="tic"></div>
+            <div id="tic" class="tic"></div>
+            <script src="js/tic-toe.js"></script>
+        </article>
     </main>
 
     <footer></footer>
