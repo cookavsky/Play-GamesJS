@@ -5,6 +5,7 @@
 * [Getting Started](#getting-started)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
+* [To do](#to-do)
 * [Acknowledgments](#acknowledgments)
 * [Status](#status)
 * [Author](#author)
@@ -19,6 +20,9 @@ It does not have any requirements. The principle of "copy, paste". In page is 4 
 * HTML
 * CSS
 * JS
+
+## To do
+* The Appearance
 
 ## Acknowledgments
 ### Memory - Samuraj Programowania
