@@ -1,5 +1,5 @@
 # App, Games with Javascript - cookavsky
-**_The way used Javascript to create a personal calculator and a retro game like tic-tac-toe_**
+**_The way used Javascript to create a personal calculator and a retro game like tic-tac-toe._**
 
 ## Table of contents
 * [Getting Started](#getting-started)
