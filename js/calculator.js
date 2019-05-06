@@ -31,7 +31,6 @@ const click = function () {
                                                 field.innerHTML = undefined;
                                         } else {
                                                 addNumber = field.textContent;
-                                                console.log(addNumber)
                                                 field.innerHTML = "";
                                         }
                                         break;
